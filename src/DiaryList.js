@@ -9,7 +9,8 @@ const DiaryList = ({ diaryList }) => {
         {diaryList.map((it) => (
           <DiaryItem key={it.id} {...it} />
           // <div key={it.id}>
-          //   <div>작성자: {it.author}</div>,<div>일기: {it.content}</div>,
+          //   <div>작성자: {it.author}</div>,
+          //   <div>일기: {it.content}</div>,
           //   <div>감정: {it.emotion}</div>,
           //   <div>작성 시간: {it.created_date}</div>
           // </div>

@@ -3,7 +3,7 @@ import "./App.css";
 import DiaryEditor from "./DiaryEditor";
 import DiaryList from "./DiaryList";
 import Lifecycle from "./Lifecycle";
-import OptimizeTest from "./OptimizeTest";
+//import OptimizeTest from "./OptimizeTest";
 
 // const dummylist = [
 //   {
@@ -96,7 +96,7 @@ function App() {
   const { goodCount, badCount, goodRatio } = getDiaryAnalysis;
   return (
     <div className="App">
-      <OptimizeTest />
+      {/* <OptimizeTest /> */}
       <Lifecycle />
       <DiaryEditor onCreate={onCreate} />
       <div>전체 일기 : {data.length}</div>
